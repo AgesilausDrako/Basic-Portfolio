@@ -1,3 +1,4 @@
+/* Base Styles */
 * {
 	box-sizing: border-box;
 }
@@ -7,6 +8,7 @@ body {
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 27px;
 }
+
 /* Layout Styles */
 #container {
     margin: 0 auto;
@@ -14,46 +16,68 @@ body {
 }
 
 #border-box {
-    display: block;
+    background-image: url("../images/topography.png");
+    display: flex;
+    width: 100%;
+    height: 500px;
     border-bottom: 5px solid #4aaaa5;
-    background-image: url('topography.png');
 }
 
 #info-box {
     width: 650px;
-    height: 500px;
+    height: auto;
+    padding: 20px;
+    margin: 25px 0 25px 80px;
     background-color: #ffffff;
     border: 1px solid #dddddd;
 }
 
 #connect-box {
+    display: inline-block;
     float: left;
     width: 270px;
+    height: 161px;
+    margin: 24px 24px 24px 125px;
     background-color: #ffffff;
     border: 1px solid #dddddd;
 }
 
-/* Element Styles */
+.social-media li {
+    float: left;
+    display: inline-block;
+    padding: 8px;
+    margin: 0;
+}
+
+/* Header Styles */
 header {
+    width: 100%;
+    padding: 20px;
     font-size: 30px;
     font-family: Georgia, Times, 'Time New Roman', serif;
 	background-color: #ffffff;
 	color: #ffffff;
-    width: 100%;
     border: 2px solid #cccccc;
 }
 
+#name {
+    margin: 0 0 0 59px;
+}
+
+/* Navigation */
 nav {
-    float: right;
+    padding: 5px;
     display: inline-block;
+    float: right;
     font-size: 15px;
-    margin-right: 5%;
+    margin-right: 20%;
     text-align: right;
   }
 
 nav li {
-    padding: 5px;
-    margin: 5px;
+    float: left;
+    padding: 10px;
+    margin: 0 10px 10px 10px;
 }
 
 nav a {
@@ -61,15 +85,17 @@ nav a {
     color: #777777;
  }
 
+/* Element Styles */
  h1 {
     font-family: Georgia, Times, 'Time New Roman', serif;
+    display: inline;
     background-color: #4aaaa5;
     padding: 15px;
-    margin: 0 629px 0 140px
  }
 
  h2 {
     font-family: Georgia, Times, 'Time New Roman', serif;
+    font-size: 25px;
     font-weight: bold;
     color: #4aaaa5;
     padding: 10px;
@@ -84,19 +110,21 @@ nav a {
  }
 
 /* Image Styles */
-
 #profile-image {
     float: left;
     height: auto; 
     width: auto; 
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 170px;
+    max-height: 170px;
     margin: 10px;
 }
 
+/* Footer */
 footer {
     clear: both;
 	background-color: #666666;
     padding: 20px;
     text-align: center;
 }
+
+/* Contact Page */
