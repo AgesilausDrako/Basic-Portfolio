@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	color: #777777;
+    
+}
+
+#container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header {
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+
+nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+
+ a {
+ 	text-decoration: none;
+ }
+
+footer {
+	background-color: #666666;
+}
