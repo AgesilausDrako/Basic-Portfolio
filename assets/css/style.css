@@ -3,7 +3,14 @@
 	box-sizing: border-box;
 }
 
+html {
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    margin: 0;
+    padding: 0;
 	color: #777777;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 27px;
@@ -19,7 +26,7 @@ body {
     background-image: url("../images/topography.png");
     display: flex;
     width: 100%;
-    height: 530px;
+    height: auto;
     border-bottom: 7px solid #4aaaa5;
     overflow: auto;
 }
@@ -130,8 +137,9 @@ nav a {
 footer {
     clear: both;
 	background-color: #666666;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
+    height: 100px;
 }
 
 /* Portfolio Page*/
@@ -145,10 +153,13 @@ footer {
 }
 
 #gallery li {
-  float: left;
-  max-width: 25%;
-  max-height: 25%;
-  margin: 2.5%;
+    margin: 5px;
+    padding: 5px;
+    width: 5px;
+    height: 20px;
+    width: 45%;
+    display: inline-block;
+    position: relative;
 }
 
 #gallery li a {
@@ -156,8 +167,7 @@ footer {
 }
 
 #gallery li a p {  
-    padding: 20px;
-    margin: -40px 0 0 0;
+    padding: 25px;
     text-align: center;
     background-color: #4aaaa5;
     color: #ffffff;
