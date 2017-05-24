@@ -19,8 +19,8 @@ body {
     background-image: url("../images/topography.png");
     display: flex;
     width: 100%;
-    height: 500px;
-    border-bottom: 5px solid #4aaaa5;
+    height: 530px;
+    border-bottom: 7px solid #4aaaa5;
 }
 
 #info-box {
@@ -57,7 +57,7 @@ header {
     font-family: Georgia, Times, 'Time New Roman', serif;
 	background-color: #ffffff;
 	color: #ffffff;
-    border: 2px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
 }
 
 #name {
@@ -69,9 +69,10 @@ nav {
     padding: 5px;
     display: inline-block;
     float: right;
-    font-size: 15px;
+    font-size: 20px;
     margin-right: 20%;
     text-align: right;
+    margin: -10px 260px;
   }
 
 nav li {
@@ -127,4 +128,49 @@ footer {
     text-align: center;
 }
 
+/* Portfolio Page*/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 15%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li a p {
+  margin: 0;
+  max-width: 170px; 
+  max-height: 170px;
+  padding: 5%;
+  font-size: 1.5em;
+  color: #bdc3c7
+}
+
 /* Contact Page */
+
+input, textarea {
+    width: 100%;
+    margin: 5px 0 5px;
+}
+
+form {
+    margin: 10px;
+}
+
+button {
+    font-family: Georgia, Times, 'Time New Roman', serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    padding: 20px 35px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: 1px solid #cccccc;
+}
